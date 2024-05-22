@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "clean": "nuxt cleanup",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@types/better-sqlite3": "^7.6.5",
+    "@types/leaflet": "^1.9.7",
+    "@types/node": "^18",
+    "@vueuse/core": "^10.2.1",
+    "@vueuse/nuxt": "^10.2.1",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.7.4",
+    "postcss": "^8.4.24",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "@pinia/nuxt": "^0.4.11",
+    "@trpc/client": "^10.38.5",
+    "@trpc/server": "^10.38.5",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "better-sqlite3": "^8.6.0",
+    "pinia": "^2.1.4",
+    "trpc-nuxt": "^0.10.12",
+    "uuid": "^9.0.1",
+    "vue-toastification": "^2.0.0-rc.5",
+    "zod": "^3.22.2"
+  }
+}
